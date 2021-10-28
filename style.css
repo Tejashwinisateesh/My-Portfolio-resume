@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:inherit;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner{
+    width: 100%;
+    height: 1000px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 75%;
+}
+
+.banner-btn {
+   margin: 70px auto;
+   margin-left: 400px;
+
+
+}
+.banner-btn a {
+    width: 110px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: burlywood;
+    border: .5px solid ;
+    position: relative;
+    z-index: 1;
+    transform: color 0.5s;
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background:burlywood;
+    transition: 0.5s;
+
+}
+.banner-btn a:hover span {
+    width: 100%; 
+
+}
+.banner-btn a:hover  {
+   color:burlywood;
+}
+.banner-text{
+    text-align: justify;
+    color:burlywood ;
+    padding-top: 80px ;
+    margin-left: 500px;
+
+
+}
+.banner-text h1 {
+    font-size: 30px;
+    font-style:italic;
+    color: burlywood;
+}
+
+.company{
+    text-align: justify;
+    color:burlywood ;
+    padding-top: 80px ;
+    margin-left: 500px;
+
+
+}
+.company h1 {
+    font-size: 30px;
+    font-style:italic;
+    color: burlywood;
+}
+#technology {
+    width: 100%;
+  
+}
+.title-text {
+    text-align: center;
+    padding-bottom: 70px;
+    background-color:rgb(20, 19, 19);
+}
+.title-text p{
+    margin:auto;
+    font-size: 40px;
+    color:burlywood;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-style:italic;
+    
+}
+.title-text h1{
+    font-size: 25px;
+    font-style:italic;
+    color:burlywood;
+    
+
+}
+#qualification{
+    width: 100%;
+}
+.title-tool {
+        text-align: center;
+        padding-bottom: 70px;
+        background-color: rgb(110, 112, 116);
+}
+.title-tool p{
+    margin:auto;
+    font-size: 40px;
+    color:black;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-style:italic;
+
+}
+.title-tool h1{
+    font-size: 25px;
+    font-style:italic;
+}
+#Internship{
+    width: 100%;
+}
+.title-intern{
+    text-align: center;
+    padding-bottom: 70px;
+    background-color: rgb(20, 19, 19);;
+}
+.title-intern p{
+    margin:auto;
+    font-size: 40px;
+    color:burlywood;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-style:italic;
+}
+.title-intern h1{
+    font-size: 25px;
+    font-style:italic;
+    color:burlywood;
+}
+.title-intern h2{
+    font-size:20px;
+    font-style: italic;
+    color:burlywood;
+}
+.title-intern h3{
+    font-size: 20px;
+    font-style: italic;
+    color:burlywood;
+}
+
+#project {
+    width: 100%;
+  
+}
+.project-box {
+    text-align: center;
+    padding-bottom: 70px;
+    background-color: rgb(110, 112, 116);
+}
+.project-box p{
+    margin:auto;
+    font-size: 40px;
+    color:black;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-style:italic;
+}
+.project-box h1{
+    font-size: 25px;
+    font-style:italic;
+}
+.project-box h2{
+    font-size: 20px;
+    font-style:italic;
+}
